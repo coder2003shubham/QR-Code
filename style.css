@@ -11,14 +11,14 @@ body{
 }
 main
 {
-  width: 420px;
+  width: 440px;
   border: 1px solid black;
   padding: 20px;
   border-radius: 8px;
 }
 main .heading
 {
-  text-align: center;
+  text-align: justify;
   font-size: 1.2rem;
 }
 main .paragraph
