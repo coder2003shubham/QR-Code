@@ -3,7 +3,7 @@ const main = document.querySelector("main");
 const btn = document.querySelector("button");
 const code = document.querySelector(".qrcode");
 const qrcodeimg = document.querySelector(".qrcode img");
-btn.addEventListener("click", () => {
+btn.addEventListener("submit", () => {
   const inputval = input.value;
   if (!inputval) return;
   qrcodeimg.src = ` https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=${inputval} `;
